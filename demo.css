@@ -1,6 +1,6 @@
-body{
-    color: brown;
-    background-color: bisque;
+/* body{
+    color: rgb(214, 121, 121);
+    background-color: rgb(31, 18, 1);
     font-family: 'Lucida Sans';
 }
 
@@ -13,12 +13,20 @@ p{
 img{
     height: 500px;
     width: 500px;
-    border-radius: 120px;
+}@media (min-width: 600px){
+    .festival{
+        display :grid;
+        height: 500px;
+        width: 500px;
+        grid-template-columns: 50% 50%;
+    }
 }
 
 video{
-    height: 500px;
+  
+ width:100%;
 }
+
 
 ol{
     list-style-type: lower-roman;
@@ -97,5 +105,142 @@ nav{
 }
 .festival{
     display :grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100% 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+      color: rgb(214, 121, 121);
+    background-color: rgb(31, 18, 1);
+    font-family: 'Lucida Sans';
+
 }
+/* p{
+    font-style:italic;
+    font-size:xx-large;
+    font-weight:bolder;
+} */
+
+img{
+    /* height:500px; */
+    height:auto;
+    width: 100%;
+    /* border-radius:500px; */
+}
+@media(min-width:1024px){
+    img{
+       height:auto;
+       width:100%;
+    }
+}
+
+video{
+    /* height:500px; */
+    width:100%;
+    
+}
+ol{
+    list-style-type:lower-roman;
+
+}
+ul{
+    list-style-type:disc;
+}
+table,th,td{
+    border:1px solid white;
+    border-collapse:collapse;
+
+}
+h1{
+    padding:50px;
+    border:20px solid rgb(163, 122, 10);
+    margin:50px;
+    padding:10px;
+}
+button:hover{
+    background-color:rgb(2, 13, 2);
+    border-radius:5px;
+    
+
+}
+button{
+    padding:10px;
+    margin:20px;
+}
+@media(min-width:600px){
+  
+nav{
+    display:flex;
+    /* flex-direction:row; */
+    flex-direction:column;
+    gap:10px;}
+}
+#p1{
+    font-style:normal;
+    font-weight:bolder;
+    
+
+}
+#p2{
+    font-style:italic;
+   
+}
+.pclass{
+    font-size:x-large;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.pictures{
+    display:grid;
+    grid-template-rows: 50% 50%;
+}
+
+/* #img1{
+    grid-row:1/2;
+}
+#img2{
+    grid-row:1/2;
+}
+#img3{
+    grid-row:2/3;
+}
+#img4{
+    grid-row:2/3;
+} */
+
+/* #one{
+    grid-row:1/2;
+}
+
+#two{
+    grid-row:1/2;
+}
+#three{
+    grid-row:1/2;
+}
+#four{
+    grid-row:2/3;
+}
+#five{
+    grid-row:2/3;
+}
+#six{
+    grid-row:2/3;
+} */
