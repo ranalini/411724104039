@@ -1,0 +1,32 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    gap: 100px;
+    padding:50px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+.hero-section{
+    display:flex;
+    gap:500px;
+}
+img{
+    heigth:300px;
+    width:300px;
+    border-radius: 300px;
+}
+#projects{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 600;
+}
+#my-img{
+    heigth:300px;
+    width:300px;
+    border-radius: 300px;
+}
+#one{
+    display:flex;
+    gap:250px;
+    margin: 50px;
+}
